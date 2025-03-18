@@ -7,7 +7,7 @@ USE employees;
 
 #Step 2: SELECT Clause
 SELECT
-	emp_no,
+    emp_no,
     salary,
     LAG(salary) OVER w AS previous_salary,
     LEAD(salary) OVER w AS next_salary,
@@ -40,7 +40,7 @@ WINDOW w AS (PARTITION BY emp_no ORDER BY salary);
 
 #Final Result:
 SELECT
-	emp_no,
+    emp_no,
     salary,
     LAG(salary) OVER w AS previous_salary,
     LEAD(salary) OVER w AS next_salary,
