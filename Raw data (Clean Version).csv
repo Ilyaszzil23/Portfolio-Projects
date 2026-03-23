@@ -1,6 +1,21 @@
-﻿Date,Description,Income,Expense,Category
-01/01/2024,Client Payment A,1200,,Sales
-05/01/2024,Client payment B,950,,Sales
-03/01/2024,Office supplies,,45,Office
-07/01/2024,Rent,,500,Rent
-08/01/2024,Internet Bill,,60,Utilities
+﻿,,,,,,,,,,,,
+Expenses,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,Expenses,Rent,Utilities,,,,,,,
+,£,Number,1,2,3,, $ in column and row examples:,,,,,
+Office supplies,45,1,45,-,-,,,,,,,
+Rent,500,2,-,500,-,,"If H$12, then the column stays fixed, but the row changes.",,,,,
+Internet Bill,60,3,-,-,60,,,,,,,
+,,,,,,,"If $A12, then the row stays fixed, but the column changes.",,,,,
+Total,605,,45,500,60,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,H12,,,,,M12
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,H21,,,,,
